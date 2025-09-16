@@ -1,0 +1,141 @@
+[
+  {
+    "sku": "TEST-LANGGRAPH",
+    "name": "Test Product for LangGraph",
+    "description": "Testing LangGraph integration",
+    "category": "Test",
+    "price": 99.99,
+    "currency": "USD",
+    "attributes": {
+      "test": "langgraph"
+    }
+  },
+  {
+    "sku": "SKU-1512",
+    "name": "Leather Wallet for Men",
+    "description": "Leather wallet with 5 card slots.",
+    "category": "Leather Goods",
+    "price": 19.99,
+    "currency": "USD",
+    "attributes": {
+      "color": "black",
+      "material": "leather"
+    }
+  },
+  {
+    "sku": "FASTAPI-TEST-2",
+    "name": "FastAPI Test Product 2",
+    "description": "Testing FastAPI integration again",
+    "category": "Test",
+    "price": 39.99,
+    "currency": "USD",
+    "attributes": {
+      "test": "fastapi"
+    }
+  },
+  {
+    "sku": "FRONTEND-TEST",
+    "name": "Frontend Integration Test",
+    "description": "Testing frontend to FastAPI integration",
+    "category": "Test",
+    "price": 49.99,
+    "currency": "USD",
+    "attributes": {
+      "integration": "test"
+    }
+  },
+  {
+    "sku": "SKU-2001",
+    "name": "Bluetooth Mouse",
+    "description": "Bluetooth mouse with 2.4G connection capabilities included for robust connection.",
+    "category": "Electronics",
+    "price": 19.99,
+    "currency": "USD",
+    "attributes": {
+      "color": [
+        "black",
+        "grey",
+        "blue"
+      ],
+      "material": [
+        "plastic",
+        "stainless steel",
+        "carbon fiber"
+      ]
+    }
+  },
+  {
+    "sku": "TIMING-TEST-1",
+    "name": "Timing Test Product",
+    "description": "Testing workflow timing with LangGraph",
+    "category": "Test",
+    "price": 29.99,
+    "currency": "USD",
+    "attributes": {
+      "test": "timing"
+    }
+  },
+  {
+    "sku": "LANGSMITH-TEST",
+    "name": "LangSmith Tracing Test",
+    "description": "Testing LangSmith tracing integration",
+    "category": "Test",
+    "price": 99.99,
+    "currency": "USD",
+    "attributes": {
+      "langsmith": "enabled"
+    }
+  },
+  {
+    "sku": "SKU-1212",
+    "name": "Bluetooth Mouse Wireless",
+    "description": "Bluetooth mouse with 2.4G connection capabilities included for robust connection.",
+    "category": "Electronics",
+    "price": 29.95,
+    "currency": "USD",
+    "attributes": {
+      "color": "black",
+      "material": "plastic"
+    }
+  },
+  {
+    "sku": "AI-ENHANCED-TEST",
+    "name": "Premium Wireless Gaming Headset",
+    "description": "High-fidelity wireless gaming headset with 7.1 surround sound, noise cancellation, and RGB lighting. Perfect for professional esports and immersive gaming experiences.",
+    "category": "Gaming",
+    "price": 149.99,
+    "currency": "USD",
+    "attributes": {
+      "color": "black",
+      "wireless": true,
+      "battery_life": "20 hours"
+    }
+  },
+  {
+    "sku": "SKU-1012",
+    "name": "Maono PD-100U",
+    "description": "USB-C Condenser Podcast Microphone.",
+    "category": "Electronics",
+    "price": 59.99,
+    "currency": "USD",
+    "attributes": {
+      "color": [
+        "black",
+        "white"
+      ],
+      "material": [
+        "stainless steel",
+        "plastic"
+      ]
+    }
+  },
+  {
+    "sku": "TEST-001",
+    "name": "Premium Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation",
+    "category": "Electronics",
+    "price": 199.99,
+    "currency": "USD",
+    "attributes": {}
+  }
+]

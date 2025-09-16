@@ -1,0 +1,462 @@
+[
+  {
+    "sku": "TEST-LANGGRAPH",
+    "name": "Test Product for LangGraph",
+    "normalized_attributes": {
+      "test": "langgraph",
+      "category": "test"
+    },
+    "seo": {
+      "title": "Test Product for LangGraph | Test",
+      "description": "Buy Test Product for LangGraph featuring langgraph.",
+      "keywords": [
+        "Test",
+        "Test Product for LangGraph"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Test Product for LangGraph | Test",
+        "description": "Buy Test Product for LangGraph featuring langgraph."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 99.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-1512",
+    "name": "Leather Wallet for Men",
+    "normalized_attributes": {
+      "color": "black",
+      "material": "leather",
+      "category": "leather goods"
+    },
+    "seo": {
+      "title": "Leather Wallet for Men | Leather Goods",
+      "description": "Buy Leather Wallet for Men featuring black.",
+      "keywords": [
+        "Leather Goods",
+        "Leather Wallet for Men"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Leather Wallet for Men | Leather Goods",
+        "description": "Buy Leather Wallet for Men featuring black."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 19.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "FASTAPI-TEST-2",
+    "name": "FastAPI Test Product 2",
+    "normalized_attributes": {
+      "test": "fastapi",
+      "category": "test"
+    },
+    "seo": {
+      "title": "FastAPI Test Product 2 | Test",
+      "description": "Buy FastAPI Test Product 2 featuring fastapi.",
+      "keywords": [
+        "FastAPI Test Product 2",
+        "Test"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "FastAPI Test Product 2 | Test",
+        "description": "Buy FastAPI Test Product 2 featuring fastapi."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 39.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "FRONTEND-TEST",
+    "name": "Frontend Integration Test",
+    "normalized_attributes": {
+      "integration": "test",
+      "category": "test"
+    },
+    "seo": {
+      "title": "Frontend Integration Test | Test",
+      "description": "Buy Frontend Integration Test featuring test.",
+      "keywords": [
+        "Frontend Integration Test",
+        "Test"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Frontend Integration Test | Test",
+        "description": "Buy Frontend Integration Test featuring test."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 49.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-2001",
+    "name": "Bluetooth Mouse",
+    "normalized_attributes": {
+      "color": [
+        "black",
+        "grey",
+        "blue"
+      ],
+      "material": [
+        "plastic",
+        "stainless steel",
+        "carbon fiber"
+      ],
+      "category": "electronics"
+    },
+    "seo": {
+      "title": "Bluetooth Mouse | Electronics",
+      "description": "Buy Bluetooth Mouse featuring Bluetooth mouse with 2.4G connection capabilities included for robust connection..",
+      "keywords": [
+        "Bluetooth Mouse",
+        "Electronics"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Bluetooth Mouse | Electronics",
+        "description": "Buy Bluetooth Mouse featuring Bluetooth mouse with 2.4G connection capabilities included for robust connection.."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 19.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "TIMING-TEST-1",
+    "name": "Timing Test Product",
+    "normalized_attributes": {
+      "test": "timing",
+      "category": "test"
+    },
+    "seo": {
+      "title": "Timing Test Product | Test",
+      "description": "Buy Timing Test Product featuring timing.",
+      "keywords": [
+        "Test",
+        "Timing Test Product"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Timing Test Product | Test",
+        "description": "Buy Timing Test Product featuring timing."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 29.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "LANGSMITH-TEST",
+    "name": "LangSmith Tracing Test",
+    "normalized_attributes": {
+      "langsmith": "enabled",
+      "category": "test"
+    },
+    "seo": {
+      "title": "LangSmith Tracing Test | Test",
+      "description": "Buy LangSmith Tracing Test featuring enabled.",
+      "keywords": [
+        "LangSmith Tracing Test",
+        "Test"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "LangSmith Tracing Test | Test",
+        "description": "Buy LangSmith Tracing Test featuring enabled."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 99.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-1212",
+    "name": "Bluetooth Mouse Wireless",
+    "normalized_attributes": {
+      "color": "black",
+      "material": "plastic",
+      "category": "electronics"
+    },
+    "seo": {
+      "title": "Bluetooth Mouse Wireless | Electronics",
+      "description": "Buy Bluetooth Mouse Wireless featuring black.",
+      "keywords": [
+        "Bluetooth Mouse Wireless",
+        "Electronics"
+      ]
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Bluetooth Mouse Wireless | Electronics",
+        "description": "Buy Bluetooth Mouse Wireless featuring black."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 29.95,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "AI-ENHANCED-TEST",
+    "name": "Premium Wireless Gaming Headset",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Premium Wireless Gaming Headset",
+        "confidence": 1
+      },
+      "description": {
+        "value": "High-fidelity wireless gaming headset with 7.1 surround sound, noise cancellation, and RGB lighting. Perfect for professional esports and immersive gaming experiences.",
+        "confidence": 1
+      },
+      "category": "gaming",
+      "color": {
+        "value": "black",
+        "confidence": 1
+      },
+      "wireless": {
+        "value": true,
+        "confidence": 1
+      },
+      "battery_life": {
+        "value": "20 hours",
+        "confidence": 1
+      },
+      "sound_quality": {
+        "value": "7.1 surround sound",
+        "confidence": 0.9
+      },
+      "noise_cancellation": {
+        "value": true,
+        "confidence": 0.8
+      },
+      "rgb_lighting": {
+        "value": true,
+        "confidence": 0.8
+      },
+      "intended_use": {
+        "value": [
+          "professional esports",
+          "immersive gaming experiences"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "seo": {
+      "title": "Immerse in Gaming Glory with Premium Wireless Headset - $149.99",
+      "description": "Experience professional-grade gaming with our high-fidelity wireless headset. 7.1 surround sound, noise cancellation, and RGB lighting for ultimate immersion.",
+      "keywords": [
+        "wireless gaming headset",
+        "7.1 surround sound",
+        "noise cancellation",
+        "RGB lighting",
+        "professional gaming headset"
+      ],
+      "long_description": "Step up your gaming experience with our Premium Wireless Gaming Headset. Designed for professional esports and immersive gaming, this headset delivers high-fidelity sound with 7.1 surround sound technology. Enjoy crystal-clear audio and pinpoint accuracy with noise cancellation features. Stand out with customizable RGB lighting while dominating your opponents. Elevate your gameplay to the next level with this premium wireless headset."
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Immerse in Gaming Glory with Premium Wireless Headset - $149.99",
+        "description": "Experience professional-grade gaming with our high-fidelity wireless headset. 7.1 surround sound, noise cancellation, and RGB lighting for ultimate immersion.",
+        "long_description": "Step up your gaming experience with our Premium Wireless Gaming Headset. Designed for professional esports and immersive gaming, this headset delivers high-fidelity sound with 7.1 surround sound technology. Enjoy crystal-clear audio and pinpoint accuracy with noise cancellation features. Stand out with customizable RGB lighting while dominating your opponents. Elevate your gameplay to the next level with this premium wireless headset."
+      },
+      {
+        "locale": "es-ES",
+        "title": "Sumérgete en la gloria del juego con auriculares inalámbricos premium - $149.99",
+        "description": "Experimenta juegos de calidad profesional con nuestros auriculares inalámbricos de alta fidelidad. Sonido envolvente 7.1, cancelación de ruido e iluminación RGB para una inmersión definitiva.",
+        "long_description": "Mejora tu experiencia de juego con nuestros auriculares inalámbricos premium para juegos. Diseñados para deportes electrónicos profesionales y juegos inmersivos, estos auriculares ofrecen un sonido de alta fidelidad con tecnología de sonido envolvente 7.1. Disfruta de un audio cristalino y una precisión excepcional con funciones de cancelación de ruido. Destaca con iluminación RGB personalizable mientras dominas a tus oponentes. Eleva tu juego al siguiente nivel con estos auriculares inalámbricos premium."
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Plongez dans la gloire du jeu avec un casque sans fil premium - 149,99 $",
+        "description": "Vivez une expérience de jeu de qualité professionnelle avec notre casque sans fil haute fidélité. Son surround 7.1, annulation de bruit et éclairage RGB pour une immersion ultime.",
+        "long_description": "Rehaussez votre expérience de jeu avec notre casque de jeu sans fil premium. Conçu pour les sports électroniques professionnels et le jeu immersif, ce casque offre un son haute fidélité avec la technologie de son surround 7.1. Profitez d'un audio cristallin et d'une précision inégalée avec des fonctionnalités d'annulation de bruit. Démarquez-vous avec un éclairage RGB personnalisable tout en dominant vos adversaires. Élevez votre gameplay au niveau supérieur avec ce casque sans fil premium."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 149.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-1012",
+    "name": "Maono PD-100U",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Maono PD-100U",
+        "confidence": 1
+      },
+      "description": {
+        "value": "USB-C Condenser Podcast Microphone",
+        "confidence": 1
+      },
+      "category": "electronics",
+      "color": {
+        "value": [
+          "black",
+          "white"
+        ],
+        "confidence": 1
+      },
+      "material": {
+        "value": [
+          "stainless steel",
+          "plastic"
+        ],
+        "confidence": 1
+      },
+      "connection_type": {
+        "value": "USB-C",
+        "confidence": 0.9
+      },
+      "microphone_type": {
+        "value": "Condenser",
+        "confidence": 0.9
+      },
+      "usage": {
+        "value": "Podcast",
+        "confidence": 0.9
+      }
+    },
+    "seo": {
+      "title": "Maono PD-100U USB-C Condenser Podcast Microphone - Professional Sound Quality",
+      "description": "Enhance your podcasting experience with the Maono PD-100U USB-C Condenser Microphone. Crystal clear sound quality for professional podcasts.",
+      "keywords": [
+        "USB-C microphone",
+        "condenser microphone",
+        "podcast microphone",
+        "professional sound quality",
+        "Maono PD-100U"
+      ],
+      "long_description": "The Maono PD-100U USB-C Condenser Podcast Microphone is designed for podcasters seeking professional sound quality. With its sleek design and durable construction using stainless steel and plastic materials, this microphone offers versatility in both black and white colors. Elevate your podcasting game with the Maono PD-100U and capture clear, crisp audio that engages your audience. Compatible with a range of devices, this microphone is the perfect choice for podcasters looking to stand out in the crowded digital landscape."
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Maono PD-100U USB-C Condenser Podcast Microphone - Professional Sound Quality",
+        "description": "Enhance your podcasting experience with the Maono PD-100U USB-C Condenser Microphone. Crystal clear sound quality for professional podcasts.",
+        "long_description": "The Maono PD-100U USB-C Condenser Podcast Microphone is designed for podcasters seeking professional sound quality. With its sleek design and durable construction using stainless steel and plastic materials, this microphone offers versatility in both black and white colors. Elevate your podcasting game with the Maono PD-100U and capture clear, crisp audio that engages your audience. Compatible with a range of devices, this microphone is the perfect choice for podcasters looking to stand out in the crowded digital landscape."
+      },
+      {
+        "locale": "es-ES",
+        "title": "Micrófono de condensador para podcast Maono PD-100U USB-C - Calidad de sonido profesional",
+        "description": "Mejora tu experiencia de podcasting con el Micrófono de Condensador Maono PD-100U USB-C. Calidad de sonido cristalina para podcasts profesionales.",
+        "long_description": "El Micrófono de Condensador para Podcast Maono PD-100U USB-C está diseñado para podcasters que buscan calidad de sonido profesional. Con su diseño elegante y construcción duradera utilizando acero inoxidable y plástico, este micrófono ofrece versatilidad en colores negro y blanco. Eleva tu juego de podcasting con el Maono PD-100U y captura audio claro y nítido que cautiva a tu audiencia. Compatible con una variedad de dispositivos, este micrófono es la elección perfecta para podcasters que buscan destacar en el abarrotado panorama digital."
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Microphone de podcast USB-C à condensateur Maono PD-100U - Qualité sonore professionnelle",
+        "description": "Améliorez votre expérience de podcasting avec le microphone à condensateur USB-C Maono PD-100U. Qualité sonore cristalline pour des podcasts professionnels.",
+        "long_description": "Le microphone de podcast USB-C à condensateur Maono PD-100U est conçu pour les podcasteurs recherchant une qualité sonore professionnelle. Avec son design élégant et sa construction durable en acier inoxydable et plastique, ce microphone offre une polyvalence en noir et blanc. Rehaussez votre jeu de podcasting avec le Maono PD-100U et capturez un audio clair et net qui captive votre public. Compatible avec une gamme d'appareils, ce microphone est le choix parfait pour les podcasteurs cherchant à se démarquer dans le paysage numérique saturé."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 59.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "TEST-001",
+    "name": "Premium Wireless Headphones",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Premium Wireless Headphones",
+        "confidence": 1
+      },
+      "description": {
+        "value": "High-quality wireless headphones with noise cancellation",
+        "confidence": 1
+      },
+      "category": "electronics",
+      "wireless": {
+        "value": true,
+        "confidence": 0.9
+      },
+      "noise_cancellation": {
+        "value": true,
+        "confidence": 0.9
+      },
+      "type": {
+        "value": "Over-ear",
+        "confidence": 0.8
+      }
+    },
+    "seo": {
+      "title": "Immerse Yourself in Music with Premium Wireless Headphones",
+      "description": "Experience superior sound quality and peace with our high-quality wireless headphones featuring noise cancellation. Shop now!",
+      "keywords": [
+        "premium wireless headphones",
+        "wireless noise-cancelling headphones",
+        "high-quality headphones",
+        "wireless headphones with noise cancellation",
+        "electronics"
+      ],
+      "long_description": "Indulge in the ultimate audio experience with our Premium Wireless Headphones. These top-of-the-line headphones deliver crystal-clear sound and block out external distractions with advanced noise cancellation technology. Whether you're a music enthusiast, frequent traveler, or work-from-home professional, these headphones are designed to elevate your listening experience. Stay tangle-free with wireless convenience and immerse yourself in your favorite tunes without any interruptions. Upgrade your audio game today with our Premium Wireless Headphones!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Immerse Yourself in Music with Premium Wireless Headphones",
+        "description": "Experience superior sound quality and peace with our high-quality wireless headphones featuring noise cancellation. Shop now!",
+        "long_description": "Indulge in the ultimate audio experience with our Premium Wireless Headphones. These top-of-the-line headphones deliver crystal-clear sound and block out external distractions with advanced noise cancellation technology. Whether you're a music enthusiast, frequent traveler, or work-from-home professional, these headphones are designed to elevate your listening experience. Stay tangle-free with wireless convenience and immerse yourself in your favorite tunes without any interruptions. Upgrade your audio game today with our Premium Wireless Headphones!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "Sumérgete en la música con Auriculares Inalámbricos Premium",
+        "description": "Experimenta una calidad de sonido superior y tranquilidad con nuestros auriculares inalámbricos de alta calidad con cancelación de ruido. ¡Compra ahora!",
+        "long_description": "Disfruta de la experiencia auditiva definitiva con nuestros Auriculares Inalámbricos Premium. Estos auriculares de alta gama ofrecen un sonido cristalino y bloquean distracciones externas con tecnología avanzada de cancelación de ruido. Ya seas un entusiasta de la música, un viajero frecuente o un profesional que trabaja desde casa, estos auriculares están diseñados para elevar tu experiencia auditiva. Mantente libre de enredos con la comodidad inalámbrica y sumérgete en tus melodías favoritas sin interrupciones. ¡Mejora tu experiencia auditiva hoy con nuestros Auriculares Inalámbricos Premium!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Plongez dans la musique avec des écouteurs sans fil haut de gamme",
+        "description": "Découvrez une qualité sonore supérieure et la tranquillité avec nos écouteurs sans fil de haute qualité dotés de la technologie de réduction de bruit. Achetez maintenant!",
+        "long_description": "Laissez-vous emporter par l'expérience audio ultime avec nos écouteurs sans fil haut de gamme. Ces écouteurs haut de gamme offrent un son cristallin et bloquent les distractions extérieures grâce à une technologie avancée de réduction de bruit. Que vous soyez un passionné de musique, un voyageur fréquent ou un professionnel travaillant à domicile, ces écouteurs sont conçus pour sublimer votre expérience d'écoute. Restez sans enchevêtrement avec la commodité sans fil et plongez-vous dans vos morceaux préférés sans aucune interruption. Améliorez votre expérience audio dès aujourd'hui avec nos écouteurs sans fil haut de gamme!"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 199.99,
+      "in_stock": true
+    }
+  }
+]
