@@ -814,5 +814,76 @@
       "price": 29.99,
       "in_stock": true
     }
+  },
+  {
+    "sku": "SKU-3134",
+    "name": "Bluetooth Mouse with 2.4G Wireless Support",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Bluetooth Mouse with 2.4G Wireless Support",
+        "confidence": 1
+      },
+      "description": {
+        "value": "A bluetooth mouse with dual mode 2.4G wireless support as well as Bluetoot 5.3 low-power technology.",
+        "confidence": 1
+      },
+      "category": "electronics",
+      "color": {
+        "value": [
+          "black",
+          "blue",
+          "grey"
+        ],
+        "confidence": 1
+      },
+      "material": {
+        "value": "plastic",
+        "confidence": 1
+      },
+      "wireless_technology": {
+        "value": [
+          "Bluetooth 5.3",
+          "2.4G"
+        ],
+        "confidence": 1
+      }
+    },
+    "seo": {
+      "title": "Wireless Bluetooth Mouse with 2.4G Support - Shop Now!",
+      "description": "Experience seamless connectivity with our Bluetooth mouse featuring dual mode 2.4G wireless support and Bluetooth 5.3 technology. Enhance your productivity today!",
+      "keywords": [
+        "Bluetooth mouse",
+        "2.4G wireless mouse",
+        "Bluetooth 5.3 technology",
+        "wireless mouse for productivity",
+        "dual mode mouse"
+      ],
+      "long_description": "Upgrade your work setup with our Bluetooth Mouse with 2.4G Wireless Support. This innovative mouse offers dual-mode connectivity, allowing you to switch between Bluetooth and 2.4G wireless effortlessly. With Bluetooth 5.3 low-power technology, enjoy extended battery life and reliable connectivity. Available in black, blue, and grey colors, crafted from durable plastic material. Elevate your productivity with this versatile wireless mouse today!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Wireless Bluetooth Mouse with 2.4G Support - Shop Now!",
+        "description": "Experience seamless connectivity with our Bluetooth mouse featuring dual mode 2.4G wireless support and Bluetooth 5.3 technology. Enhance your productivity today!",
+        "long_description": "Upgrade your work setup with our Bluetooth Mouse with 2.4G Wireless Support. This innovative mouse offers dual-mode connectivity, allowing you to switch between Bluetooth and 2.4G wireless effortlessly. With Bluetooth 5.3 low-power technology, enjoy extended battery life and reliable connectivity. Available in black, blue, and grey colors, crafted from durable plastic material. Elevate your productivity with this versatile wireless mouse today!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "¡Ratón inalámbrico Bluetooth con soporte 2.4G - ¡Compra ahora!",
+        "description": "Experimenta una conectividad perfecta con nuestro ratón Bluetooth que cuenta con soporte inalámbrico dual 2.4G y tecnología Bluetooth 5.3. ¡Mejora tu productividad hoy!",
+        "long_description": "Actualiza tu configuración de trabajo con nuestro Ratón Bluetooth con soporte inalámbrico 2.4G. Este innovador ratón ofrece conectividad dual, permitiéndote cambiar entre Bluetooth y 2.4G inalámbrico sin esfuerzo. Con la tecnología de bajo consumo Bluetooth 5.3, disfruta de una vida útil prolongada de la batería y una conectividad fiable. Disponible en colores negro, azul y gris, fabricado con material plástico duradero. ¡Eleva tu productividad con este versátil ratón inalámbrico hoy mismo!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Souris Bluetooth sans fil avec support 2,4G - Achetez maintenant !",
+        "description": "Profitez d'une connectivité fluide avec notre souris Bluetooth offrant un support sans fil dual mode 2,4G et la technologie Bluetooth 5.3. Améliorez votre productivité dès aujourd'hui !",
+        "long_description": "Optimisez votre espace de travail avec notre Souris Bluetooth avec Support sans fil 2,4G. Cette souris innovante offre une connectivité dual mode, vous permettant de basculer facilement entre Bluetooth et sans fil 2,4G. Grâce à la technologie Bluetooth 5.3 à faible consommation d'énergie, profitez d'une autonomie prolongée et d'une connectivité fiable. Disponible en noir, bleu et gris, fabriquée en plastique durable. Augmentez votre productivité avec cette souris sans fil polyvalente dès aujourd'hui !"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 29.99,
+      "in_stock": true
+    }
   }
 ]

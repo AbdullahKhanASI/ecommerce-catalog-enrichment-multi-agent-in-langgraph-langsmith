@@ -200,5 +200,21 @@
       "color": "blue",
       "material": "pu-leather"
     }
+  },
+  {
+    "sku": "SKU-3134",
+    "name": "Bluetooth Mouse with 2.4G Wireless Support",
+    "description": "A bluetooth mouse with dual mode 2.4G wireless support as well as Bluetoot 5.3 low-power technology.",
+    "category": "Electronics",
+    "price": 29.99,
+    "currency": "USD",
+    "attributes": {
+      "color": [
+        "black",
+        "blue",
+        "grey"
+      ],
+      "material": "plastic"
+    }
   }
 ]
