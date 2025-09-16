@@ -22,7 +22,7 @@ RUN uv sync --frozen
 # Copy source code
 COPY src/ ./src/
 COPY catalog/ ./catalog/
-COPY .env .env.example ./
+COPY .env.example ./
 
 # Expose port
 EXPOSE 8000
