@@ -137,5 +137,68 @@
     "price": 199.99,
     "currency": "USD",
     "attributes": {}
+  },
+  {
+    "sku": "SKU-1291",
+    "name": "Bluetooth Airpods",
+    "description": "Airpods with Bluetooth 5.3",
+    "category": "Audio",
+    "price": 29.99,
+    "currency": "USD",
+    "attributes": {
+      "color": "grey",
+      "material": "plastic"
+    }
+  },
+  {
+    "sku": "TEST-FIX-001",
+    "name": "Test Product for UI Fixes",
+    "description": "Testing the UI fixes for workflow tracking",
+    "category": "Test",
+    "price": 99.99,
+    "currency": "USD",
+    "attributes": {}
+  },
+  {
+    "sku": "DEBUG-001",
+    "name": "Debug Test",
+    "description": "Testing step progression",
+    "category": "Debug",
+    "price": 1.0,
+    "currency": "USD",
+    "attributes": {}
+  },
+  {
+    "sku": "STEP-TEST-001",
+    "name": "Step Progress Test",
+    "description": "Testing real-time step progression",
+    "category": "Test",
+    "price": 5.0,
+    "currency": "USD",
+    "attributes": {}
+  },
+  {
+    "sku": "SKU-5123",
+    "name": "Bluetooth Mouse with Screen",
+    "description": "Bluetooth mouse with 2.4G + Bluetooth 5.3 support.",
+    "category": "Electronics",
+    "price": 79.99,
+    "currency": "USD",
+    "attributes": {
+      "color": "white",
+      "material": "steel"
+    }
+  },
+  {
+    "sku": "SKU-4123",
+    "name": "Leather Wallet",
+    "description": "Leather Wallet with 5 card and 2 cash slots.",
+    "category": "Leather Goods",
+    "price": 29.99,
+    "currency": "USD",
+    "attributes": {
+      "color": "blue",
+      "material": "pu-leather"
+    }
   }
 ]

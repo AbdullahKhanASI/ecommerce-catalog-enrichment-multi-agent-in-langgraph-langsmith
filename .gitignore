@@ -63,6 +63,20 @@ Thumbs.db
 coverage/
 .nyc_output
 .pytest_cache/
+.coverage
+coverage.xml
+
+# Linters & type-checkers
+.mypy_cache/
+.ruff_cache/
+
+# Next.js build cache
+frontend/.next/
+frontend/out/
+
+# Turbo / Vercel artifacts
+.turbo/
+.vercel/
 
 # Temporary files
 tmp/

@@ -74,6 +74,18 @@ export default function HomePage() {
     setIsSubmitting(true);
     resetState();
 
+    // Immediately show the submitted product
+    const submittedProduct = {
+      sku: form.sku,
+      name: form.name,
+      description: form.description,
+      category: form.category,
+      price: parseFloat(form.price) || 0,
+      currency: form.currency,
+      attributes: JSON.parse(form.attributesInput || '{}')
+    };
+    setOriginalProduct(submittedProduct);
+
     try {
       const response = await fetch('/api/enrich', {
         method: 'POST',
@@ -131,6 +143,10 @@ export default function HomePage() {
         break;
       case 'workflow':
         setWorkflowSteps(message.steps);
+        // Initialize progress tracking
+        setProgress(0);
+        setCompletedSteps(new Set());
+        setCurrentStep(null);
         break;
       case 'event':
         if ((message as any).event) {
@@ -139,12 +155,39 @@ export default function HomePage() {
           setCurrentStep(event.step);
 
           // Update completed steps and progress
-          if (event.message.includes('completed') || event.message.includes('enriched') || event.message.includes('generated')) {
+          // Detect step completion based on actual backend messages
+          const isStepCompleted = (() => {
+            const msg = event.message.toLowerCase();
+            switch (event.step) {
+              case 'ingest':
+                return msg.includes('loaded product');
+              case 'extract':
+                return msg.includes('ai extracted') || msg.includes('extracted product attributes');
+              case 'validate':
+                return msg.includes('validation passed');
+              case 'copywrite':
+                return msg.includes('ai generated seo') || msg.includes('generated seo copy');
+              case 'localize':
+                return msg.includes('ai localized') || msg.includes('localized to');
+              case 'publish':
+                return msg.includes('enriched product ready');
+              default:
+                return false;
+            }
+          })();
+
+          if (isStepCompleted) {
             setCompletedSteps(prev => {
               const newCompleted = new Set(prev);
               newCompleted.add(event.step);
-              const progressPercent = (newCompleted.size / workflowSteps.length) * 100;
-              setProgress(progressPercent);
+              // Calculate progress based on current workflow steps
+              setWorkflowSteps(currentSteps => {
+                if (currentSteps.length > 0) {
+                  const progressPercent = (newCompleted.size / currentSteps.length) * 100;
+                  setProgress(progressPercent);
+                }
+                return currentSteps;
+              });
               return newCompleted;
             });
           }
@@ -152,6 +195,8 @@ export default function HomePage() {
         break;
       case 'enriched':
         setEnrichedProduct(message.enriched);
+        // Don't auto-complete all steps - let individual events handle completion
+        setCurrentStep(null); // Clear current step since workflow is done
         break;
       case 'stderr':
       case 'log':
@@ -161,6 +206,8 @@ export default function HomePage() {
         break;
       case 'complete':
         setLogLines((prev) => [...prev, `Process exited with code ${message.exitCode}`]);
+        // Clear current step - individual step completion should handle the rest
+        setCurrentStep(null);
         break;
       default:
         break;

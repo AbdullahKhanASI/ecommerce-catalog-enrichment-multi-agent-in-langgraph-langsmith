@@ -458,5 +458,361 @@
       "price": 199.99,
       "in_stock": true
     }
+  },
+  {
+    "sku": "SKU-1291",
+    "name": "Bluetooth Airpods",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Bluetooth Airpods",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Airpods with Bluetooth 5.3",
+        "confidence": 1
+      },
+      "category": "audio",
+      "color": {
+        "value": "grey",
+        "confidence": 1
+      },
+      "material": {
+        "value": "plastic",
+        "confidence": 1
+      },
+      "bluetooth_version": {
+        "value": "5.3",
+        "confidence": 1
+      }
+    },
+    "seo": {
+      "title": "Enhance Your Listening Experience with Bluetooth Airpods - Only $29.99",
+      "description": "Upgrade to the latest Bluetooth 5.3 Airpods for crystal-clear sound quality. Shop now and enjoy wireless freedom!",
+      "keywords": [
+        "Bluetooth Airpods",
+        "wireless earbuds",
+        "Bluetooth 5.3",
+        "audio accessories",
+        "affordable earphones"
+      ],
+      "long_description": "Immerse yourself in music with our Bluetooth Airpods featuring the latest Bluetooth 5.3 technology. These sleek grey earbuds are made of high-quality plastic, offering both style and comfort. Enjoy seamless connectivity and superior sound quality for an unbeatable price of $29.99. Elevate your audio experience today!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Enhance Your Listening Experience with Bluetooth Airpods - Only $29.99",
+        "description": "Upgrade to the latest Bluetooth 5.3 Airpods for crystal-clear sound quality. Shop now and enjoy wireless freedom!",
+        "long_description": "Immerse yourself in music with our Bluetooth Airpods featuring the latest Bluetooth 5.3 technology. These sleek grey earbuds are made of high-quality plastic, offering both style and comfort. Enjoy seamless connectivity and superior sound quality for an unbeatable price of $29.99. Elevate your audio experience today!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "Mejora tu experiencia auditiva con Airpods Bluetooth - Solo $29.99",
+        "description": "Actualiza a los últimos Airpods Bluetooth 5.3 para una calidad de sonido cristalina. ¡Compra ahora y disfruta de la libertad inalámbrica!",
+        "long_description": "Sumérgete en la música con nuestros Airpods Bluetooth que cuentan con la última tecnología Bluetooth 5.3. Estos elegantes auriculares grises están hechos de plástico de alta calidad, ofreciendo estilo y comodidad. Disfruta de una conectividad perfecta y una calidad de sonido superior por un precio imbatible de $29.99. ¡Eleva tu experiencia auditiva hoy!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Améliorez votre expérience d'écoute avec les Airpods Bluetooth - Seulement 29,99 $",
+        "description": "Passez aux derniers Airpods Bluetooth 5.3 pour une qualité sonore cristalline. Faites vos achats maintenant et profitez de la liberté sans fil !",
+        "long_description": "Plongez dans la musique avec nos Airpods Bluetooth dotés de la dernière technologie Bluetooth 5.3. Ces écouteurs gris élégants sont fabriqués en plastique de haute qualité, offrant à la fois style et confort. Profitez d'une connectivité sans faille et d'une qualité sonore supérieure pour un prix imbattable de 29,99 $. Rehaussez votre expérience audio dès aujourd'hui !"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 29.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "TEST-FIX-001",
+    "name": "Test Product for UI Fixes",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Test Product for UI Fixes",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Testing the UI fixes for workflow tracking",
+        "confidence": 1
+      },
+      "category": "test"
+    },
+    "seo": {
+      "title": "Enhance Workflow Tracking with Test Product for UI Fixes - $99.99",
+      "description": "Optimize your workflow tracking with our Test Product for UI Fixes. Streamline processes and boost productivity. Buy now!",
+      "keywords": [
+        "UI fixes",
+        "workflow tracking",
+        "productivity",
+        "test product",
+        "efficiency"
+      ],
+      "long_description": "Experience seamless workflow tracking with our Test Product for UI Fixes. This product is designed to enhance efficiency and streamline processes, making it ideal for businesses looking to optimize their operations. With a focus on user interface improvements, this tool ensures a smooth and productive workflow. Invest in your business's success today!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Enhance Workflow Tracking with Test Product for UI Fixes - $99.99",
+        "description": "Optimize your workflow tracking with our Test Product for UI Fixes. Streamline processes and boost productivity. Buy now!",
+        "long_description": "Experience seamless workflow tracking with our Test Product for UI Fixes. This product is designed to enhance efficiency and streamline processes, making it ideal for businesses looking to optimize their operations. With a focus on user interface improvements, this tool ensures a smooth and productive workflow. Invest in your business's success today!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "Mejora el Seguimiento de Flujo de Trabajo con Producto de Prueba para Correcciones de Interfaz de Usuario - $99.99",
+        "description": "Optimiza tu seguimiento de flujo de trabajo con nuestro Producto de Prueba para Correcciones de Interfaz de Usuario. Simplifica procesos y aumenta la productividad. ¡Compra ahora!",
+        "long_description": "Experimenta un seguimiento de flujo de trabajo sin interrupciones con nuestro Producto de Prueba para Correcciones de Interfaz de Usuario. Este producto está diseñado para mejorar la eficiencia y simplificar procesos, siendo ideal para empresas que buscan optimizar sus operaciones. Con un enfoque en mejoras de interfaz de usuario, esta herramienta garantiza un flujo de trabajo fluido y productivo. ¡Invierte en el éxito de tu negocio hoy!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Optimisez le suivi des flux de travail avec notre Produit Test pour les Corrections d'UI - 99,99 €",
+        "description": "Optimisez le suivi de vos flux de travail avec notre Produit Test pour les Corrections d'UI. Simplifiez les processus et augmentez la productivité. Achetez maintenant !",
+        "long_description": "Découvrez un suivi de flux de travail fluide avec notre Produit Test pour les Corrections d'UI. Ce produit est conçu pour améliorer l'efficacité et simplifier les processus, le rendant idéal pour les entreprises cherchant à optimiser leurs opérations. Axé sur les améliorations de l'interface utilisateur, cet outil garantit un flux de travail fluide et productif. Investissez dans le succès de votre entreprise dès aujourd'hui !"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 99.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "DEBUG-001",
+    "name": "Debug Test",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Debug Test",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Testing step progression",
+        "confidence": 1
+      },
+      "category": "debug"
+    },
+    "seo": {
+      "title": "Enhance Testing Efficiency with Debug Test - Only $1.0 USD",
+      "description": "Optimize your debugging process with Debug Test. Streamline testing step progression. Buy now for $1.0 USD!",
+      "keywords": [
+        "debug test",
+        "testing step progression",
+        "debugging tool",
+        "software testing",
+        "debugging process"
+      ],
+      "long_description": "Debug Test is a must-have tool for software developers and testers. Simplify your debugging process and enhance testing efficiency with this innovative product. With its user-friendly interface and advanced features, Debug Test helps you streamline testing step progression. Get your hands on Debug Test today and experience seamless debugging like never before."
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Enhance Testing Efficiency with Debug Test - Only $1.0 USD",
+        "description": "Optimize your debugging process with Debug Test. Streamline testing step progression. Buy now for $1.0 USD!",
+        "long_description": "Debug Test is a must-have tool for software developers and testers. Simplify your debugging process and enhance testing efficiency with this innovative product. With its user-friendly interface and advanced features, Debug Test helps you streamline testing step progression. Get your hands on Debug Test today and experience seamless debugging like never before."
+      },
+      {
+        "locale": "es-ES",
+        "title": "Mejora la eficiencia de pruebas con Debug Test - ¡Solo $1.0 USD!",
+        "description": "Optimiza tu proceso de depuración con Debug Test. Simplifica la progresión de pasos de prueba. ¡Cómpralo ahora por $1.0 USD!",
+        "long_description": "Debug Test es una herramienta imprescindible para desarrolladores de software y probadores. Simplifica tu proceso de depuración y mejora la eficiencia de pruebas con este producto innovador. Con su interfaz amigable y funciones avanzadas, Debug Test te ayuda a agilizar la progresión de pasos de prueba. Consigue Debug Test hoy y experimenta una depuración sin problemas como nunca antes."
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Améliorez l'efficacité des tests avec Debug Test - Seulement 1,0 USD",
+        "description": "Optimisez votre processus de débogage avec Debug Test. Simplifiez la progression des étapes de test. Achetez maintenant pour 1,0 USD !",
+        "long_description": "Debug Test est un outil indispensable pour les développeurs de logiciels et les testeurs. Simplifiez votre processus de débogage et améliorez l'efficacité des tests avec ce produit innovant. Avec son interface conviviale et ses fonctionnalités avancées, Debug Test vous aide à rationaliser la progression des étapes de test. Mettez la main sur Debug Test dès aujourd'hui et découvrez un débogage fluide comme jamais auparavant."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 1.0,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "STEP-TEST-001",
+    "name": "Step Progress Test",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Step Progress Test",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Testing real-time step progression",
+        "confidence": 1
+      },
+      "category": "test"
+    },
+    "seo": {
+      "title": "Real-Time Step Progress Test - Measure Progress Instantly",
+      "description": "Track step progression in real-time with our Step Progress Test. Instant results for effective performance evaluation.",
+      "keywords": [
+        "Step Progress Test",
+        "real-time testing",
+        "step progression measurement",
+        "performance evaluation",
+        "test"
+      ],
+      "long_description": "Enhance your testing capabilities with our Step Progress Test. This innovative tool allows you to measure step progression instantly, providing valuable insights for performance evaluation. Perfect for those seeking real-time feedback and accurate results. Buy now for only $5.0 USD."
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Real-Time Step Progress Test - Measure Progress Instantly",
+        "description": "Track step progression in real-time with our Step Progress Test. Instant results for effective performance evaluation.",
+        "long_description": "Enhance your testing capabilities with our Step Progress Test. This innovative tool allows you to measure step progression instantly, providing valuable insights for performance evaluation. Perfect for those seeking real-time feedback and accurate results. Buy now for only $5.0 USD."
+      },
+      {
+        "locale": "es-ES",
+        "title": "Prueba de Progreso de Pasos en Tiempo Real - Mide el Progreso al Instante",
+        "description": "Sigue la progresión de pasos en tiempo real con nuestra Prueba de Progreso de Pasos. Resultados instantáneos para una evaluación de rendimiento efectiva.",
+        "long_description": "Potencia tus capacidades de prueba con nuestra Prueba de Progreso de Pasos. Esta innovadora herramienta te permite medir la progresión de pasos al instante, proporcionando valiosos conocimientos para la evaluación del rendimiento. Perfecta para aquellos que buscan retroalimentación en tiempo real y resultados precisos. Cómprala ahora por solo $5.0 USD."
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Test de progression des étapes en temps réel - Mesurez instantanément les progrès",
+        "description": "Suivez la progression des étapes en temps réel avec notre Test de progression des étapes. Obtenez des résultats instantanés pour une évaluation de performance efficace.",
+        "long_description": "Optimisez vos capacités de test avec notre Test de progression des étapes. Cet outil innovant vous permet de mesurer instantanément la progression des étapes, offrant des informations précieuses pour l'évaluation de la performance. Parfait pour ceux qui recherchent des retours en temps réel et des résultats précis. Achetez maintenant pour seulement 5,0 USD."
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 5.0,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-5123",
+    "name": "Bluetooth Mouse with Screen",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Bluetooth Mouse with Screen",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Bluetooth mouse with 2.4G + Bluetooth 5.3 support.",
+        "confidence": 1
+      },
+      "category": "electronics",
+      "color": {
+        "value": "white",
+        "confidence": 1
+      },
+      "material": {
+        "value": "steel",
+        "confidence": 1
+      },
+      "bluetooth_version": {
+        "value": "5.3",
+        "confidence": 1
+      },
+      "connectivity_technology": {
+        "value": "Bluetooth, 2.4G",
+        "confidence": 1
+      }
+    },
+    "seo": {
+      "title": "Wireless Bluetooth Mouse with Screen - Shop Now for Enhanced Productivity",
+      "description": "Experience seamless connectivity with our Bluetooth mouse featuring 2.4G + Bluetooth 5.3 support. Boost your efficiency!",
+      "keywords": [
+        "Bluetooth mouse with screen",
+        "Wireless mouse",
+        "Bluetooth 5.3 mouse",
+        "Electronics accessory",
+        "Productivity tool"
+      ],
+      "long_description": "Enhance your work setup with our Bluetooth Mouse with Screen. This innovative mouse offers dual connectivity options with 2.4G and Bluetooth 5.3 support, ensuring a stable and lag-free connection. The built-in screen provides quick access to notifications and settings, streamlining your workflow. Its sleek white design and durable steel material make it a stylish and long-lasting accessory for your electronics collection. Elevate your productivity and upgrade to our Bluetooth Mouse with Screen today!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Wireless Bluetooth Mouse with Screen - Shop Now for Enhanced Productivity",
+        "description": "Experience seamless connectivity with our Bluetooth mouse featuring 2.4G + Bluetooth 5.3 support. Boost your efficiency!",
+        "long_description": "Enhance your work setup with our Bluetooth Mouse with Screen. This innovative mouse offers dual connectivity options with 2.4G and Bluetooth 5.3 support, ensuring a stable and lag-free connection. The built-in screen provides quick access to notifications and settings, streamlining your workflow. Its sleek white design and durable steel material make it a stylish and long-lasting accessory for your electronics collection. Elevate your productivity and upgrade to our Bluetooth Mouse with Screen today!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "Ratón inalámbrico Bluetooth con pantalla - Compra ahora para una productividad mejorada",
+        "description": "Experimenta una conectividad perfecta con nuestro ratón Bluetooth que cuenta con soporte 2.4G + Bluetooth 5.3. ¡Aumenta tu eficiencia!",
+        "long_description": "Mejora tu configuración de trabajo con nuestro Ratón Bluetooth con pantalla. Este ratón innovador ofrece opciones de doble conectividad con soporte 2.4G y Bluetooth 5.3, asegurando una conexión estable y sin retrasos. La pantalla incorporada proporciona un acceso rápido a notificaciones y ajustes, optimizando tu flujo de trabajo. Su elegante diseño blanco y material de acero duradero lo convierten en un accesorio elegante y duradero para tu colección de electrónicos. ¡Eleva tu productividad y actualízate a nuestro Ratón Bluetooth con pantalla hoy mismo!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Souris Bluetooth sans fil avec écran - Découvrez-la pour une productivité accrue",
+        "description": "Profitez d'une connectivité fluide avec notre souris Bluetooth dotée du support 2,4G + Bluetooth 5.3. Boostez votre efficacité !",
+        "long_description": "Optimisez votre espace de travail avec notre Souris Bluetooth avec Écran. Cette souris innovante offre des options de connectivité double avec le support 2,4G et Bluetooth 5.3, garantissant une connexion stable et sans décalage. L'écran intégré offre un accès rapide aux notifications et aux paramètres, simplifiant votre flux de travail. Son design blanc élégant et son matériau en acier durable en font un accessoire stylé et durable pour votre collection électronique. Augmentez votre productivité et passez à notre Souris Bluetooth avec Écran dès aujourd'hui !"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 79.99,
+      "in_stock": true
+    }
+  },
+  {
+    "sku": "SKU-4123",
+    "name": "Leather Wallet",
+    "normalized_attributes": {
+      "product_name": {
+        "value": "Leather Wallet",
+        "confidence": 1
+      },
+      "description": {
+        "value": "Leather Wallet with 5 card and 2 cash slots.",
+        "confidence": 1
+      },
+      "category": "leather goods",
+      "color": {
+        "value": "blue",
+        "confidence": 1
+      },
+      "material": {
+        "value": "PU leather",
+        "confidence": 1
+      },
+      "number_of_card_slots": {
+        "value": 5,
+        "confidence": 1
+      },
+      "number_of_cash_slots": {
+        "value": 2,
+        "confidence": 1
+      }
+    },
+    "seo": {
+      "title": "Premium Leather Wallet with 5 Card Slots - $29.99",
+      "description": "Upgrade your style with our genuine leather wallet featuring 5 card slots and 2 cash compartments. Shop now!",
+      "keywords": [
+        "leather wallet",
+        "card slots wallet",
+        "genuine leather wallet",
+        "wallet with cash slots",
+        "leather goods"
+      ],
+      "long_description": "Indulge in luxury with our Leather Wallet crafted from high-quality PU leather. This stylish wallet offers 5 card slots and 2 cash compartments, providing both functionality and elegance. Perfect for the modern individual looking to organize their essentials in style. Elevate your everyday carry with this sleek and durable accessory. Order yours today!"
+    },
+    "localizations": [
+      {
+        "locale": "en-US",
+        "title": "Premium Leather Wallet with 5 Card Slots - $29.99",
+        "description": "Upgrade your style with our genuine leather wallet featuring 5 card slots and 2 cash compartments. Shop now!",
+        "long_description": "Indulge in luxury with our Leather Wallet crafted from high-quality PU leather. This stylish wallet offers 5 card slots and 2 cash compartments, providing both functionality and elegance. Perfect for the modern individual looking to organize their essentials in style. Elevate your everyday carry with this sleek and durable accessory. Order yours today!"
+      },
+      {
+        "locale": "es-ES",
+        "title": "Billetera de Cuero Premium con 5 Ranuras para Tarjetas - $29.99",
+        "description": "Actualiza tu estilo con nuestra billetera de cuero genuino que cuenta con 5 ranuras para tarjetas y 2 compartimentos para billetes. ¡Compra ahora!",
+        "long_description": "Déjate llevar por el lujo con nuestra Billetera de Cuero elaborada con cuero PU de alta calidad. Esta elegante billetera ofrece 5 ranuras para tarjetas y 2 compartimentos para billetes, brindando funcionalidad y elegancia. Perfecta para el individuo moderno que busca organizar sus esenciales con estilo. Eleva tu día a día con este accesorio elegante y duradero. ¡Haz tu pedido hoy!"
+      },
+      {
+        "locale": "fr-FR",
+        "title": "Portefeuille en cuir premium avec 5 emplacements pour cartes - 29,99 $",
+        "description": "Rehaussez votre style avec notre portefeuille en cuir véritable doté de 5 emplacements pour cartes et 2 compartiments pour billets. Achetez maintenant !",
+        "long_description": "Offrez-vous le luxe avec notre portefeuille en cuir fabriqué à partir de simili cuir de haute qualité. Ce portefeuille élégant offre 5 emplacements pour cartes et 2 compartiments pour billets, alliant fonctionnalité et élégance. Parfait pour l'individu moderne cherchant à organiser ses essentiels avec style. Rehaussez votre quotidien avec cet accessoire élégant et durable. Commandez le vôtre dès aujourd'hui !"
+      }
+    ],
+    "pricing": {
+      "currency": "USD",
+      "price": 29.99,
+      "in_stock": true
+    }
   }
 ]

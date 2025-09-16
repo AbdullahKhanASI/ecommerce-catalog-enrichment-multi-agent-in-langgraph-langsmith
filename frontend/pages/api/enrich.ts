@@ -31,9 +31,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     attributes: attributes || {},
   };
 
+  const backendUrl = process.env.BACKEND_URL ?? 'http://127.0.0.1:8000';
+
   try {
     // Forward request to FastAPI backend
-    const response = await fetch('http://localhost:8000/api/enrich/stream', {
+    const response = await fetch(`${backendUrl}/api/enrich/stream`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

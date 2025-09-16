@@ -1,0 +1,53 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: catalog-enrichment-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+    env_file:
+      - .env
+    volumes:
+      - ./catalog:/app/catalog
+    networks:
+      - catalog-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: catalog-enrichment-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - BACKEND_URL=http://catalog-enrichment-backend:8000
+      - NEXT_PUBLIC_API_URL=http://catalog-enrichment-backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - catalog-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  catalog-network:
+    driver: bridge
+
+volumes:
+  catalog-data:
+    driver: local
